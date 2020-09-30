@@ -1,5 +1,4 @@
 # KISS_Sanskrit_Parsing_Data
  Dataset and evaluation script used for depednency parsing in Sanskrit
 
-We acknowledge efforts from Prof. Amba Kulkarni and Dr Anupama Ryali for sharing the STBC treebank and 
-śiśupāla-vadham (शिशुपालवधम्)
+We thank Dr Amba Kulkarni for sharing the STBC data with us. We thank Dr Anupama Ryali for sharingśiśupāla-vadham (शिशुपालवधम्) dataset with us.

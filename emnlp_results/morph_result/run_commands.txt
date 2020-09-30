@@ -1,0 +1,1 @@
+python calculate_accuracy.py ud_pos_ner_dp_test_san_DCS.conll test_1300.conll all_data.conll

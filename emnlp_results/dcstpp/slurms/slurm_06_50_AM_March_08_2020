@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+#SBATCH --partition=soc-gpu-kp
+#SBATCH --account=soc-gpu-kp
+#SBATCH --tasks=16
+#SBATCH --nodes=1
+#SBATCH --time=24:00:00
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=50G
+#SBATCH --job-name=slurm_06_50_AM_March_08_2020
+#SBATCH --output=/uufs/chpc.utah.edu/common/home/u1266434/.tmp/slurm_06_50_AM_March_08_2020.txt
+WORK_DIR=/scratch/kingspeak/serial/u1266434/sides/dcst
+cd $WORK_DIR
+#Activate Environment
+source ../env_dcst//bin/activate
+sh test_original_dcst.sh
